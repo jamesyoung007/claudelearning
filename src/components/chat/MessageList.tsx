@@ -25,7 +25,7 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
 
   return (
     <div className="flex flex-col h-full overflow-y-auto px-4 py-6">
-      <div className="space-y-6 max-w-4xl mx-auto w-full">
+      <div className="space-y-6 max-w-4xl mx-auto w-full my-auto">
         {messages.map((message) => (
           <div
             key={message.id || message.content}
